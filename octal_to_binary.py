@@ -1,0 +1,5 @@
+o=input()
+d=int(o,8)
+b=bin(d)
+l=b.split("0b")
+print(l[1])
