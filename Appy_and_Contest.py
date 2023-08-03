@@ -1,5 +1,5 @@
-s=int(input())
-for i in range(s):
+n=int(input())
+for i in range(n):
     n,a,b,k=map(int,input().split())
     c1=n//a
     c2=n//b
