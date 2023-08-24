@@ -1,11 +1,11 @@
-def d(n):
-    c=0
+def add(n):
+    s=0
     while n>0:
         x=n%10
-        c+=x
-        n=n//10
-    return c
+        s+=x
+        n//=10
+    return s
 n=int(input())
 while n>10:
-    n=d(n)
+    n=add(n)
 print(n)
